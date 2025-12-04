@@ -1,0 +1,12 @@
+---
+title: "Enochian Language Modeling"
+---
+
+Welcome to the sandbox.
+
+This site is a testbed for:
+
+- Loading the Enochian dictionary from `dictionary.json`
+- Peeking at the Keys text file
+- Eventually wiring in the big SQLite corpus
+- Building out proper research notes and articles

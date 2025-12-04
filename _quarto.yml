@@ -1,0 +1,20 @@
+project:
+  type: website
+  execute-dir: project   # so code runs from project root (./), not the notebook folder :contentReference[oaicite:4]{index=4}
+
+website:
+  title: "Enochian Language Modeling Sandbox"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Notebooks"
+        menu:
+          - text: "Sanity check"
+            href: notebooks/00_sanity_check.ipynb
+
+format:
+  html:
+    theme: cosmo     # nice default Bootstrap theme :contentReference[oaicite:5]{index=5}
+    toc: true
+    code-fold: true
