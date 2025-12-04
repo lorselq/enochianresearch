@@ -1,0 +1,22 @@
+[project]
+name = "enochianresearch"
+version = "0.0.1"
+description = "Academic-grade articles about research into Enochian linguistics and Dee and Kelly mysteries more generally."
+authors = [
+    {name = "Forrest Wilbur",email = "forrest.a.wilbur@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "quarto-cli (>=1.8.26,<2.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "ipykernel (>=7.1.0,<8.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "sqlalchemy (>=2.0.44,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
